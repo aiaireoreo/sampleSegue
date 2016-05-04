@@ -14,6 +14,7 @@
 		0156E1D61CD9D04C005B85B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0156E1D41CD9D04C005B85B2 /* LaunchScreen.storyboard */; };
 		0156E1E11CD9D04C005B85B2 /* sampleSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156E1E01CD9D04C005B85B2 /* sampleSegueTests.swift */; };
 		0156E1EC1CD9D04C005B85B2 /* sampleSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156E1EB1CD9D04C005B85B2 /* sampleSegueUITests.swift */; };
+		0156E1FA1CD9D206005B85B2 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156E1F91CD9D206005B85B2 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0156E1E71CD9D04C005B85B2 /* sampleSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0156E1EB1CD9D04C005B85B2 /* sampleSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleSegueUITests.swift; sourceTree = "<group>"; };
 		0156E1ED1CD9D04C005B85B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0156E1F91CD9D206005B85B2 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0156E1CB1CD9D04C005B85B2 /* AppDelegate.swift */,
 				0156E1CD1CD9D04C005B85B2 /* ViewController.swift */,
+				0156E1F91CD9D206005B85B2 /* secondViewController.swift */,
 				0156E1CF1CD9D04C005B85B2 /* Main.storyboard */,
 				0156E1D21CD9D04C005B85B2 /* Assets.xcassets */,
 				0156E1D41CD9D04C005B85B2 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0156E1CE1CD9D04C005B85B2 /* ViewController.swift in Sources */,
+				0156E1FA1CD9D206005B85B2 /* secondViewController.swift in Sources */,
 				0156E1CC1CD9D04C005B85B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
