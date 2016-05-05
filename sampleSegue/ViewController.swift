@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         }
     }
 
-    //戻るセグエをつけるための用意
+    //戻ってくるためのメソッド
     @IBAction func returnMenu(segue: UIStoryboardSegue) {
         
         //mycount変数に前の画面のtmpCountの値を受け取って
